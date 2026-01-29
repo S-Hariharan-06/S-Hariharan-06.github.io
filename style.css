@@ -116,3 +116,27 @@ footer {
         padding: 20px;
     }
 }
+/* Contact Section */
+.contact {
+    background: linear-gradient(135deg, #f7fafc, #eef2f7);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0;
+    font-size: 1rem;
+}
+
+.contact-item span {
+    font-weight: 600;
+    color: #2c5364;
+    min-width: 80px;
+}
+
+.contact-item a {
+    color: #2c7be5;
+    word-break: break-word;
+}
+
