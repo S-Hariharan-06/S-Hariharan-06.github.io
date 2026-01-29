@@ -139,4 +139,26 @@ footer {
     color: #2c7be5;
     word-break: break-word;
 }
+/* Resume Section */
+.resume {
+    text-align: center;
+}
+
+.resume-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 26px;
+    background: linear-gradient(135deg, #2c7be5, #1a5fd0);
+    color: white;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(44, 123, 229, 0.4);
+}
 
